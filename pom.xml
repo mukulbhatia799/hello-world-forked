@@ -12,6 +12,10 @@
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
 
+  <prerequisites>
+    <maven>3.9.10</maven>
+  </prerequisites>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -196,9 +200,5 @@
     <tag>HEAD</tag>
     <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
-
-  <prerequisites>
-    <maven>3.9.0</maven>
-  </prerequisites>
 
 </project>
